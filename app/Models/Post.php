@@ -9,5 +9,14 @@ class Post extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['title', 'content', 'author_name'];
+    protected $fillable = [
+        'title', 
+        'content', 
+        'author_name',
+        'is_anonymous'  
+    ];
+
+    protected $casts = [
+        'is_anonymous' => 'boolean',
+    ];
 }

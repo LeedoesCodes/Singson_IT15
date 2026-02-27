@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>kamusta dawg? - Welcome</title>
 
-    <!-- Fonts -->
+   
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=inter:400,500,600,700|playfair-display:400,700" rel="stylesheet" />
 
-    <!-- Tailwind CSS -->
+  
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="bg-gradient-to-br from-slate-50 via-white to-amber-50 font-sans antialiased min-h-screen flex flex-col">
 
-    <!-- Header -->
+    
     <header class="bg-gradient-to-r from-amber-500 to-rose-500 shadow-lg">
         <div class="container mx-auto px-6 py-4">
             <div class="flex justify-between items-center">
@@ -167,7 +167,7 @@
         </div>
     </main>
 
-    <!-- Footer -->
+   
     <footer class="bg-gray-800 mt-12">
         <div class="container mx-auto px-6 py-4 text-center text-gray-400 text-sm">
             &copy; {{ date('Y') }} kamusta dawg? All rights reserved, dawg!
